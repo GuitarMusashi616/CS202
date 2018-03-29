@@ -11,9 +11,6 @@ public:
 	FilledBox(int, int);
 	std::string type() const override;
 	void print(std::ostream &) const override;
-private:
-	int _height;
-	int _width;
 };
 
 class HollowBox : public Box 
@@ -32,9 +29,6 @@ public:
 	CheckeredBox(int, int);
 	std::string type() const override;
 	void print(std::ostream &) const override;
-private:
-	int _height;
-	int _width;
 };
 
 #endif

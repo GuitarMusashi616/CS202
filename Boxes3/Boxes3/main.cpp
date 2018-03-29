@@ -33,7 +33,10 @@ int main() {
 	//auto x = boxFactory('h', 10, 6);
 	//x->print(std::cout);
 	HollowBox paperBox{ 7,4 };
-	paperBox.print(cout);
+	FilledBox metalBox{ 10,5 };
+	CheckeredBox marbleBox{ 6,4 };
+	cout << endl << paperBox << endl << metalBox << endl << marbleBox << endl;
+	//metalBox.print(cout);
 
 	while (cin.get() != '\n');
 }

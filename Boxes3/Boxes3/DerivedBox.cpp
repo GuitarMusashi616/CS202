@@ -17,6 +17,9 @@ std::string FilledBox::type() const
 
 void FilledBox::print(std::ostream &os) const
 {
+	for (int i = 0; i < _height; i++) {
+		os << repString("x", _width) << std::endl;
+	}
 }
 
 HollowBox::HollowBox() : Box{}
@@ -36,10 +39,10 @@ void HollowBox::print(std::ostream &os) const
 {
 	for (int i = 0; i < _height; i++) {
 		if (i == 0 || i == _height - 1) {
-			os << repString("X", _width);
+			os << repString("x", _width);
 		}
 		else {
-			os << "X" << repString(" ", _width - 2) << "X" << std::endl;
+			os << "x" << repString(" ", _width - 2) << "x";
 		}
 		os << std::endl;
 	}
@@ -60,4 +63,12 @@ std::string CheckeredBox::type() const
 
 void CheckeredBox::print(std::ostream &os) const
 {
+	for (int i = 0; i < _height; i++) {
+		if (i % 2 == 1) {
+			os << repString("x ", _width/2);
+		} else {
+			os << repString(" x", _width/2);
+		}
+		os << std::endl;
+	}
 }

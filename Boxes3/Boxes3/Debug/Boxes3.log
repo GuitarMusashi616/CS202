@@ -1,8 +1,3 @@
-﻿  DerivedBox.cpp
-  Generating Code...
-  Compiling...
-  Box.cpp
-  Generating Code...
-  Skipping... (no relevant changes detected)
-  main.cpp
-  Boxes3.vcxproj -> C:\Users\AustinWilliams\source\repos\Boxes3\Debug\Boxes3.exe
+﻿  main.cpp
+c:\users\owner\documents\github\cs202\boxes3\boxes3\main.cpp(24): warning C4715: 'boxFactory': not all control paths return a value
+  Boxes3.vcxproj -> C:\Users\Owner\Documents\GitHub\CS202\Boxes3\Debug\Boxes3.exe

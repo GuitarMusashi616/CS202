@@ -37,7 +37,7 @@ void Box::setHeight(int height)
 
 std::string Box::repString(std::string rep, int num)
 {
-	std::string out = rep;
+	std::string out = "";
 	for (int i = 0; i < num; i++) {
 		out = out + rep;
 	}
