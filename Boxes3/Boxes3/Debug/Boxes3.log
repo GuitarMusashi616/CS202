@@ -1,3 +1,5 @@
 ﻿  main.cpp
-c:\users\owner\documents\github\cs202\boxes3\boxes3\main.cpp(24): warning C4715: 'boxFactory': not all control paths return a value
+  box.cpp
+  Generating Code...
+c:\users\owner\documents\github\cs202\boxes3\boxes3\box.cpp(183): warning C4715: 'boxFactory': not all control paths return a value
   Boxes3.vcxproj -> C:\Users\Owner\Documents\GitHub\CS202\Boxes3\Debug\Boxes3.exe
